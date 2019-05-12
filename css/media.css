@@ -1,0 +1,286 @@
+/* ------------- Media Query Start -------------------------------*/
+
+/*Extra small devices (portrait phones, less than 576px)*/
+@media screen and (max-width: 575px) {
+
+    /* Navber scroolling Start */
+    .navbar-collapse {
+        padding-top: 13px;
+    }
+
+    .navbar-light .navbar-nav .active > .nav-link,
+    .navbar-light .navbar-nav .nav-link.active,
+    .navbar-light .navbar-nav .nav-link.show,
+    .navbar-light .navbar-nav .show > .nav-link {
+        padding-left: 16px;
+        width: 50%;
+        margin-bottom: 4px;
+    }
+
+    .navbar-nav .nav-link {
+        width: 50%;
+        padding-left: 16px;
+    }
+
+    /* Navber scroolling End */
+
+    /* Social Section Start */
+    .social-section {
+        padding-top: 40px;
+    }
+
+    .social-section ul {
+        padding-left: 10px;
+    }
+
+    /* Social Section End */
+
+    /* Bg-Image Section Start */
+    .bg-img h1 {
+        padding-top: 100px;
+        font-size: 50px;
+    }
+
+    .bg-img p {
+        padding-bottom: 20px;
+    }
+
+    /* Bg-Image Section End */
+
+    /* News Section Start */
+    .news-section {
+        padding: 40px 0px 0px;
+    }
+
+    .news-section h1 {
+        padding-bottom: 30px;
+    }
+
+    .news-section img {
+        margin: 0 auto;
+    }
+
+    /* News Section End */
+
+    /* Newsletter Section Start */
+    .newsletter-section p {
+        width: 110% !important;
+        margin: 0px -11px 30px !important;
+    }
+
+    /* Newsletter Section End */
+
+    /* Blog Section Start */
+    .blog-section {
+        padding: 50px 0px 0px;
+        text-align: center;
+    }
+
+    .blog-section h1 {
+        padding-bottom: 25px;
+    }
+
+    .blog-section h1:hover {
+        -webkit-transform: scale(-01.1, -01.1);
+        -moz-transform: scale(-01.1, -01.1);
+        -ms-transform: scale(-01.1, -01.1);
+        -o-transform: scale(-01.1, -01.1);
+        transform: scale(-01.1, -01.1);
+        -webkit-transition: 0.7s ease-in;
+        -moz-transition: 0.7s ease-in;
+        -ms-transition: 0.7s ease-in;
+        -o-transition: 0.7s ease-in;
+        transition: 0.7s ease-in;
+    }
+
+    .blog-section h2 {
+        padding: 0px 0px 20px;
+    }
+
+    .btn-danger {
+        margin: 20px 0px 50px;
+    }
+
+    /* Blog Section End */
+}
+
+/* Small devices (landscape phones, 576px and up)*/
+@media screen and (max-width: 767px) {
+    .navbar-collapse {
+        padding-top: 13px;
+    }
+
+    .navbar-light .navbar-nav .active > .nav-link,
+    .navbar-light .navbar-nav .nav-link.active,
+    .navbar-light .navbar-nav .nav-link.show,
+    .navbar-light .navbar-nav .show > .nav-link {
+        padding-left: 16px;
+        width: 24%;
+        margin-bottom: 4px;
+    }
+
+    .navbar-light .navbar-nav .nav-link:focus,
+    .navbar-light .navbar-nav .nav-link:hover {
+        color: #fff;
+        background-color: #dd4b2b;
+        border-radius: 50px;
+        -webkit-transition: 0.5s;
+        -moz-transition: 0.5s;
+        -ms-transition: 0.5s;
+        -o-transition: 0.5s;
+        transition: 0.5s;
+        margin-bottom: 5px;
+    }
+
+    .navbar-nav .nav-link {
+        width: 24%;
+        padding-left: 16px;
+    }
+
+    .btn-primary {
+        margin: 20px 0px 40px;
+    }
+
+    .news-section img {
+        margin: 0 auto;
+    }
+
+    .newsletter-section p {
+        width: 90% !important;
+        margin-left: 17px !important;
+        text-align: center;
+    }
+
+    .blog-section {
+        padding: 50px 0px 10px;
+        text-align: center;
+    }
+
+    .blog-section h1 {
+        padding-bottom: 18px;
+    }
+
+    .blog-section h2 {
+        padding: 0px;
+    }
+
+    .btn-danger {
+        margin: 20px 0px 40px;
+    }
+
+    footer ul {
+        margin-left: -40px;
+    }
+}
+
+/* Medium devices (tablets, 768px and up)*/
+@media screen and (max-width: 991px) {
+
+    /* Navber scroolling Start */
+    .navbar-collapse {
+        padding-top: 13px;
+    }
+
+    .navbar-light .navbar-nav .active > .nav-link,
+    .navbar-light .navbar-nav .nav-link.active,
+    .navbar-light .navbar-nav .nav-link.show,
+    .navbar-light .navbar-nav .show > .nav-link {
+        padding-left: 16px;
+        width: 50%;
+        margin-bottom: 4px;
+    }
+
+    .navbar-light .navbar-nav .nav-link:focus,
+    .navbar-light .navbar-nav .nav-link:hover {
+        color: #fff;
+        background-color: #dd4b2b;
+        border-radius: 50px;
+        -webkit-transition: 0.5s;
+        -moz-transition: 0.5s;
+        -ms-transition: 0.5s;
+        -o-transition: 0.5s;
+        transition: 0.5s;
+        margin-bottom: 5px;
+    }
+
+    .navbar-nav .nav-link {
+        width: 50%;
+        padding-left: 16px;
+    }
+
+    /* Navber scroolling End */
+    .news-section img {
+        margin: 0 auto;
+    }
+
+    .newsletter-section p {
+        width: 70%;
+        margin: 0 120px 30px;
+    }
+}
+
+/*Large devices (desktops, 992px and up)*/
+@media screen and (min-width: 992px) and (max-width: 1199px) {}
+
+/* Extra large devices (large desktops, 1200px and up)*/
+@media screen and (min-width: 1200px) {}
+
+/* ------------- For Mobile Device -------------------------------
+@media screen and (max-width: 480px){
+	.bg-img h1 {
+	    padding-top: 60px;
+	    font-size: 30px;
+	}  
+	.bg-img h4 {
+    	font-size: 13px; 
+    	margin-bottom: 50px;
+	} 
+	.news-section{
+		padding: 0px 0px;
+	}
+	.news-section h1 {
+	    font-size: 36px;
+	    padding-bottom: 15px;
+	} 
+	.news-image {
+	    width: 290px;
+	    height: 200px;  
+	}
+	.newsletter-section h2{
+		margin: 0px 0px 20px;
+	}
+	.newsletter-section p {
+    width: 100%;    
+    margin: 0px 0px 40px;
+	}
+	.blog-section {
+    padding: 0px;
+	}
+	.blog-section h1 {
+    font-size: 36px;
+    padding-bottom: 0px;
+	}
+	.blog-section h2 {
+    padding: 0px 0px;
+    text-align: center;
+    font-size: 23px;
+	}
+	.blog-section p {
+    text-align: center;
+	}
+	.btn-danger {    
+    margin: 0px 80px 30px;
+	}
+	.blog-section img {
+    width: 290px;
+    height: 200px;
+	}
+	footer ul li {    
+    padding-right: 40px;
+	}
+	.footer-bg p {    
+    font-size: 16px;
+    padding-bottom: 100px;
+	}
+}
+ ------------- Media Query End -------------------------------*/

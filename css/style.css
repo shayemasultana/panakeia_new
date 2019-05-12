@@ -1,0 +1,638 @@
+/*
+Name:Shayema Sultana
+Country:Bangladesh
+E-mail:shayema141106@gmail.com
+*/
+/*
+1.Global CSS
+2.Header CSS
+	2.1 - Navigation Menu
+3.Banner Section CSS
+4.Our News Section
+5.Newsletter Section
+6.Blog Section
+7.Footer Section
+8.Footer Section Background
+*/
+
+/* ----------Global CSS ---------- */
+body {
+    font-family: 'Roboto Slab', serif;
+    font-family: 'Roboto', sans-serif;
+    height: 100vh;
+}
+
+.center {
+    margin: 0 auto;
+    display: block;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+.btn.focus,
+.btn:focus {
+    box-shadow: none;
+}
+
+.form-control:focus {
+    background-color: rgba(255, 255, 255, 0.87);
+    border-color: #fff;
+    box-shadow: none;
+}
+
+button:focus {
+    outline: none;
+}
+
+/* --------- Navigation Menu Start --------- */
+.navbar-expand-lg {
+    background-color: #fff !important;
+    border-color: #fff;
+    margin: 0;
+    padding-top: 23px;
+}
+
+.navbar {
+    border-radius: 0px;
+    font-size: 14px;
+}
+
+.panakeia {
+    -webkit-transition: 0.7s ease-in;
+    -moz-transition: 0.7s ease-in;
+    -ms-transition: 0.7s ease-in;
+    -o-transition: 0.7s ease-in;
+    transition: 0.7s ease-in;
+    cursor: pointer;
+}
+
+.panakeia:hover {
+    -webkit-transform: scale(-1.1, -1.1);
+    -moz-transform: scale(-1.1, -1.1);
+    -ms-transform: scale(-1.1, -1.1);
+    -o-transform: scale(-1.1, -1.1);
+    transform: scale(-1.1, -1.1);
+    overflow: hidden;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: #31353e;
+    margin-right: 20px;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
+    transition: 0.5s;
+}
+
+.navbar-light .navbar-nav .nav-link:focus,
+.navbar-light .navbar-nav .nav-link:hover {
+    color: #fff;
+    background-color: #dd4b2b;
+    border-radius: 50px;
+}
+
+.navbar-light .navbar-nav .active > .nav-link,
+.navbar-light .navbar-nav .nav-link.active,
+.navbar-light .navbar-nav .nav-link.show,
+.navbar-light .navbar-nav .show > .nav-link {
+    color: #fff !important;
+    background-color: #dd4b2b !important;
+    border-radius: 50px;
+}
+
+/* ---------- Navigation Menu End ----------------*/
+/* ---------- Background Section Start ---------- */
+
+/*.bg-img{	
+    padding: 100px 0px 30px;   
+    /*parallax*/
+/* The image used */
+/*background: url(../images/bg-img.png) no-repeat;    
+
+    /* Create the parallax scrolling effect */
+/* background-attachment:fixed;
+    background-position: top center;    
+    background-size: cover;   
+} */
+.bg-img {
+    padding: 80px 0px 30px;
+    background: url(../images/bg-img.png) no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position-y: -40%;
+}
+
+/* wow js Start */
+.bg-img ul li {
+    list-style: none;
+}
+
+.bg-img li {
+    display: inline;
+    margin: 4px 1px;
+}
+
+.social-section {
+    padding-top: 28px;
+    margin-left: -5px;
+}
+
+.fa {
+    font-size: 20px;
+    background-color: transparent;
+    width: 40px;
+    height: 40px;
+    padding: 7px 6px;
+    border-radius: 50%;
+    color: #fff;
+    border-bottom: 2px solid #fff;
+    border-top: 2px solid pink;
+}
+
+.fa-facebook {
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.fa-facebook:hover {
+    background-color: #3B579D;
+}
+
+.fa-linkedin {
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.fa-linkedin:hover {
+    background-color: #0177B5;
+}
+
+.fa-twitter {
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.fa-twitter:hover {
+    background-color: #2CAAE1;
+}
+
+.fa-youtube {
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+
+    -o-transition: 0.5s;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.fa-youtube:hover {
+    background-color: #FF0000;
+}
+
+.fa-google-plus {
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.fa-google-plus:hover {
+    background-color: #DE5E53;
+}
+
+/* wow js End */
+.bg-img h1 {
+    font-family: 'Roboto Slab', serif;
+    color: #fff;
+    padding-top: 200px;
+    font-size: 60px;
+    font-weight: 300;
+    margin-left: 10px;
+}
+
+.bg-img h4 {
+    font-family: 'Roboto Slab', serif;
+    color: #fff;
+    font-size: 26px;
+    font-weight: bold;
+    margin-bottom: 120px
+}
+
+.bg-img img {
+    display: block;
+    cursor: pointer;
+    -webkit-transition: 0.7s ease-in-out;
+    -moz-transition: 0.7s ease-in-out;
+    -ms-transition: 0.7s ease-in-out;
+    -o-transition: 0.7s ease-in-out;
+    transition: 0.7s ease-in-out;
+}
+
+.bg-img img:hover {
+    overflow: hidden;
+    -webkit-transform: scale(-1.1, 1.1);
+    -moz-transform: scale(-1.1, 1.1);
+    -ms-transform: scale(-1.1, 1.1);
+    -o-transform: scale(-1.1, 1.1);
+    transform: scale(-1.1, 1.1);
+}
+
+.bg-img h2 {
+    font-family: 'Roboto Slab', serif;
+    color: #fff;
+    font-size: 30px;
+    padding: 35px 0px 2px;
+    font-weight: bold;
+}
+
+.bg-img p {
+    font-family: 'Roboto', sans-serif;
+    color: #fff;
+    font-size: 15px;
+    line-height: 25px;
+    font-weight: 300;
+}
+
+.btn-light {
+    font-family: 'Roboto Slab', serif;
+    color: #612316;
+    background-color: #fff;
+    border-radius: 50px;
+    border: none;
+    font-size: 18px;
+    padding: 10px 20px;
+    margin: 20px auto;
+    text-align: center;
+    -webkit-transition: 0.7s ease-in;
+    -moz-transition: 0.7s ease-in;
+    -ms-transition: 0.7s ease-in;
+    -o-transition: 0.7s ease-in;
+    transition: 0.7s ease-in;
+    cursor: pointer;
+}
+
+.btn-light:hover {
+    color: #fff;
+    background-color: #dd4b2b;
+    border: none;
+}
+
+/* ----------- Background Section End ---------- */
+
+/* ----------- News Section Start -------------- */
+
+.news-section {
+    background-color: #edeff1;
+    padding: 60px 0px 30px;
+
+}
+
+.news-section h1 {
+    font-size: 44px;
+    padding-bottom: 50px;
+    -webkit-text-shadow: -20px -10px 2px #e162461c;
+    -moz-text-shadow: -20px -10px 2px #f89d28;
+    -o-text-shadow: -20px -10px 2px #e162461c;
+    text-shadow: -20px -17px 2px #e162461c;
+    -webkit-transition: 0.7s ease-in;
+    -moz-transition: 0.7s ease-in;
+    -ms-transition: 0.7s ease-in;
+    -o-transition: 0.7s ease-in;
+    transition: 0.7s ease-in;
+}
+
+.news-section h1:hover {
+    cursor: pointer;
+    -webkit-transform: scale(-.01, -.01);
+    -moz-transform: scale(-.01, -.01);
+    -ms-transform: scale(-.01, -.01);
+    -o-transform: scale(-.01, -.01);
+    transform: scale(-.01, -.01);
+    overflow: hidden;
+}
+
+.news-image {
+    width: 100%;
+    height: 254px;
+    overflow: hidden;
+    border-top-right-radius: 7px;
+    border-top-left-radius: 7px;
+}
+
+.news-section img {
+    display: block;
+    -webkit-transition: 0.7s ease-in-out;
+    -moz-transition: 0.7s ease-in-out;
+    -ms-transition: 0.7s ease-in-out;
+    -o-transition: 0.7s ease-in-out;
+    transition: 0.7s ease-in-out;
+}
+
+.news-section img:hover {
+    cursor: pointer;
+    -webkit-transform: scale(1.1, 1.1);
+    -moz-transform: scale(1.1, 1.1);
+    -ms-transform: scale(1.1, 1.1);
+    -o-transform: scale(1.1, 1.1);
+    transform: scale(1.1, 1.1);
+    overflow: hidden;
+}
+
+.news-section h2 {
+    font-family: 'Roboto Slab', serif;
+    font-size: 24px;
+    font-weight: bold;
+    color: #31353e;
+    padding-top: 30px
+}
+
+.news-section p {
+    font-family: 'Roboto', sans-serif;
+    color: #575a60;
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 25px;
+    width: 90%;
+    padding-left: 28px;
+}
+
+.btn-primary {
+    font-family: 'Roboto', sans-serif;
+    color: #31353e;
+    background-color: #fff;
+    border-radius: 50px;
+    border: none;
+    font-size: 16px;
+    padding: 10px 20px;
+    margin: 20px auto;
+    text-align: center;
+    font-weight: 300;
+    -webkit-transition: 0.7s ease-in;
+    -moz-transition: 0.7s ease-in;
+    -ms-transition: 0.7s ease-in;
+    -o-transition: 0.7s ease-in;
+    transition: 0.7s ease-in;
+    cursor: pointer;
+}
+
+.btn-primary:hover {
+    color: #fff;
+    background-color: #dd4b2b;
+    border: none;
+}
+
+/* ---------- News Section End ---------------------- */
+
+/* ---------- Newsletter Section CSS Start ---------- */
+
+.newsletter-section {
+    background: url(../images/news-bg.png) no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: top center;
+    padding: 0px;
+}
+
+.newsletter-opacity {
+    -webkit-background: rgba(0, 0, 0, .4);
+    -moz-background: rgba(0, 0, 0, .4);
+    -ms-background: rgba(0, 0, 0, .4);
+    -o-background: rgba(0, 0, 0, .4);
+    background: rgba(0, 0, 0, .4);
+    padding: 50px 0px 30px;
+}
+
+.newsletter-section h2 {
+    color: #fff;
+    font-weight: bolder;
+}
+
+.newsletter-section p {
+    color: #fff;
+    width: 140%;
+    font-weight: 300;
+    margin: 0 -80px 30px;
+    padding-top: 5px;
+}
+
+.form-control {
+    border-radius: 50px;
+    height: 45px;
+    width: 110%;
+    background: rgba(255, 255, 255, .1);
+    color: #fff;
+    font-size: 16px;
+    border: 1px solid rgba(255, 255, 255, .2);
+}
+
+.input-group-btn:not(:first-child) > .btn-group:first-child,
+.input-group-btn:not(:first-child) > .btn:first-child {
+    margin-left: -51px;
+}
+
+.input-group-btn:last-child > .btn,
+.input-group-btn:last-child > .btn-group {
+    margin-top: -0px;
+    border-radius: 50px;
+    height: 45px;
+    padding: 0px 35px;
+}
+
+.sign-up {
+    -webkit-transition: 0.7s ease-in-out;
+    -moz-transition: 0.7s ease-in-out;
+    -ms-transition: 0.7s ease-in-out;
+    -o-transition: 0.7s ease-in-out;
+    transition: 0.7s ease-in-out;
+}
+
+.sign-up:hover {
+    color: #fff;
+    background-color: #dd4b2b;
+    border: none;
+}
+
+/* ------------- News letter Section End------------ */
+
+/* ------------- Blog Section Start ---------------- */
+
+.blog-section {
+    padding: 70px 0px;
+}
+
+.blog-section h1 {
+    font-size: 44px;
+    padding-bottom: 60px;
+    -webkit-text-shadow: -17px 17px 2px #e8836e12;
+    -moz-text-shadow: -17px 17px 2px #e8836e12;
+    -ms-text-shadow: -17px 17px 2px #e8836e12;
+    -o-text-shadow: -17px 17px 2px #e8836e12;
+    text-shadow: -17px 17px 2px #e8836e12;
+}
+
+.blog-section h1:hover {
+    cursor: pointer;
+    /* -webkit-transform: scale(-02.1, -01.1);
+    -moz-transform: scale(-02.1, -01.1);
+    -o-transform: scale(-02.1, -01.1);
+    transform: scale(-02.1, -01.1);*/
+    -webkit-transition: 0.7s ease-in;
+    -moz-transition: 0.7s ease-in;
+    -ms-transition: 0.7s ease-in;
+    -o-transition: 0.7s ease-in;
+    transition: 0.7s ease-in;
+    overflow: hidden;
+}
+
+.blog-section h2 {
+    padding: 20px 0px;
+}
+
+.blog-section p {
+    line-height: 30px;
+    font-weight: 300;
+    color: #191b29;
+}
+
+.btn-danger {
+    color: #fff;
+    background-color: #dd4b2b;
+    border-radius: 50px;
+    border: none;
+    font-size: 18px;
+    padding: 10px 20px;
+    margin: 20px auto;
+    text-align: center;
+}
+
+.btn-danger:hover {
+    color: #fff;
+    background-color: #a82f15;
+    border: none;
+    -webkit-transition: 0.4s ease-in-out;
+    -moz-transition: 0.4s ease-in-out;
+    -ms-transition: 0.4s ease-in-out;
+    -o-transition: 0.4s ease-in-out;
+    transition: 0.4s ease-in-out;
+    cursor: pointer;
+}
+
+.blog-section img {
+    width: 100%;
+    height: 337px;
+    overflow: hidden;
+    display: block;
+    -webkit-transition: 0.7s ease-in-out;
+    -moz-transition: 0.7s ease-in-out;
+    -ms-transition: 0.7s ease-in-out;
+    -o-transition: 0.7s ease-in-out;
+    transition: 0.7s ease-in-out;
+}
+
+.blog-section img:hover {
+    cursor: pointer;
+    transform: scale(-1.1, 1.1);
+    -webkit-transform: scale(-1.1, 1.1);
+    -moz-transform: scale(-1.1, 1.1);
+    -ms-transform: scale(-1.1, 1.1);
+    -o-transform: scale(-1.1, 1.1);
+    transform: scale(-1.1, 1.1);
+    overflow: hidden !important;
+}
+
+.burger {
+    padding-top: 30px;
+}
+
+.burger-text {
+    padding-top: 30px;
+}
+
+.btn-burger {
+    color: #fff;
+    background-color: #4b4e73;
+    -webkit-transition: 0.4s ease;
+    -moz-transition: 0.4s ease;
+    -ms-transition: 0.4s ease;
+    -o-transition: 0.4s ease;
+    transition: 0.4s ease;
+    cursor: pointer;
+}
+
+.btn-burger:hover {
+    color: #fff;
+    background-color: #181d60;
+    border: none;
+}
+
+/* ------------- Blog Section End ---------------- */
+
+/* ------------- Footer Section CSS Start ------------ */
+
+footer {
+    background-color: #d75d0e;
+    padding: 50px 0px;
+}
+
+footer ul li {
+    list-style: none;
+}
+
+footer li {
+    color: #fff;
+    line-height: 30px;
+}
+
+footer ul li a {
+    color: #fff;
+    -webkit-transition: 0.4s ease-in-out;
+    -moz-transition: 0.4s ease-in-out;
+    -ms-transition: 0.4s ease-in-out;
+    -o-transition: 0.4s ease-in-out;
+    transition: 0.4s ease-in-out;
+}
+
+footer ul li a:hover {
+    margin-left: 15px;
+}
+
+/* ------------- Footer Section CSS End -------------- */
+
+
+/* ------------- Footer Section CSS Background Start -------------- */
+
+.footer-bg {
+    background: url(../images/footer-bg.png) no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: top center;
+    padding: 0px;
+}
+
+.footer-bg p {
+    color: #fff;
+    font-size: 18px;
+    font-weight: 100;
+    line-height: 25px;
+    padding: 10px 0px 150px;
+}
+
+/* ------------- Footer Section CSS Background End -------------- */
+
